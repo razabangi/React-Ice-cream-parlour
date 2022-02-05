@@ -1,0 +1,36 @@
+.product-slider{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.product-info{
+    margin: 0px 20px;
+}
+
+.product-info h4{
+    color: lightsalmon;
+    font-size: 18px;
+}
+
+.product-info h2{
+    color: rgb(107, 163, 216);
+    font-size: 20px;
+}
+
+.product-info p:first-child{
+    margin-top: 20px;
+}
+
+.product-info p{
+    line-height: 1px;
+    color: lightsalmon;
+}
+
+@media screen and (max-width: 560px) {
+    .product-slider{
+        flex-direction: column;
+    }
+}

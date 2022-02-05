@@ -1,0 +1,29 @@
+.site{
+    background-color: rgb(182, 154, 236);
+    line-height: 200px;
+}
+
+.site-info{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.site-info li{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 560px) {
+    .site-info{
+        flex-direction: column;
+        text-align: center;
+    }
+    .site{
+        line-height: 50px;
+        text-align: center;
+    }
+}
